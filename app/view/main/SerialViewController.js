@@ -20,5 +20,17 @@ Ext.define('PapyrosSerial.view.main.SerialViewController', {
         view.up('generateForm').lookup('serverId').clearValue();
         view.up('generateForm').lookup('concurrentNo80').clearValue();
         view.up('generateForm').lookup('namedNo81').clearValue();
+    },
+
+    moreOptions: function(){
+        var optionDialog = Ext.create({
+            xtype: 'selectOptionsDialog',
+            // description: description
+        });
+
+        var delayShowDialog = new Ext.util.DelayedTask(function () {
+            optionDialog.show();
+        });
+        delayShowDialog.delay(300);
     }
 });

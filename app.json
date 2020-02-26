@@ -533,7 +533,19 @@
                     "var": "modern/sass/save.scss",
                     "src": "modern/sass/save"
                 }
+            },
+
+
+            "cordova": {
+                "config": {
+                    "platforms":"android",
+                    "id": "gr.modus.serial"
+                }
             }
+
+
+
+            
         },
 
         "ios": {

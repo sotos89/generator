@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /Users/modussa/Documents/PapyrosSerial/app.js
+// @require /Users/giannis/Documents/projects/Serial Generator/generator/app.js

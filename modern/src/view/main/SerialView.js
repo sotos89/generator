@@ -94,6 +94,12 @@ Ext.define('PapyrosSerial.view.SerialView', {
                 scale: 'medium',
                 ui: 'action',
                 handler: 'clearValues'
+            }, {
+                xtype: 'button',
+                itemId: 'options',
+                text: 'More Options',
+                ui: 'action',
+                handler: 'moreOptions'
             }]
         }]
     }]

@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'PapyrosSerial' );
-$image-search-path: '/Users/modussa/Documents/PapyrosSerial/cordova/www/ios/resources';
+$image-search-path: '/Users/giannis/Documents/projects/Serial Generator/generator/build/production/PapyrosSerial/modern/resources';
 $theme-name:  dynamic( 'theme-material' );
 $include-ext-abstractcomponent: dynamic(false);;
 $include-ext-abstractmanager: dynamic(false);;
@@ -838,12 +838,17 @@ $include-papyrosserial-store-application: dynamic(true);;
 $include-papyrosserial-store-personnel: dynamic(true);;
 $include-papyrosserial-store-version: dynamic(true);;
 $include-papyrosserial-view-form: dynamic(true);;
+$include-papyrosserial-view-inputform: dynamic(true);;
+$include-papyrosserial-view-selectoptionsdialog: dynamic(true);;
+$include-papyrosserial-view-selectoptionsdialogcontroller: dynamic(true);;
+$include-papyrosserial-view-serialview: dynamic(true);;
 $include-papyrosserial-view-main-formcontroller: dynamic(true);;
 $include-papyrosserial-view-main-list: dynamic(true);;
 $include-papyrosserial-view-main-main: dynamic(true);;
 $include-papyrosserial-view-main-maincontroller: dynamic(true);;
 $include-papyrosserial-view-main-mainmodel: dynamic(true);;
-$output-paths: ("path": "../../ios/resources", "shared": "../../resources");
+$include-papyrosserial-view-main-serialviewcontroller: dynamic(true);;
+$output-paths: ("path": "../../modern/resources", "shared": "../../resources");
 
 /* ======================== ETC ======================== */
 
